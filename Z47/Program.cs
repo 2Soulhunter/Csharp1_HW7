@@ -34,7 +34,7 @@ void PrintArray(double[,] matr)           // Функция вывода мас�
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            Console.Write(matr[i, j] + "\t");
+            Console.Write($"{matr[i, j],4}\t");
         }
         Console.Write(Environment.NewLine + Environment.NewLine);
     }
